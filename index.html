@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <form action="results.html" method="GET">
+    <div class="DIV">
+        <label for="name">NAME : </label>
+        <input type="text" id="name" name="name" placeholder="username" required>
+    </div>
+    <br>
+    <div class="DIV">
+        <label for="dob">Date of Birth : </label>
+        <input type="date" id="dob" name="dob">
+    </div>
+    <br>
+
+    <div class="DIV">
+        <label for="age">AGE : </label>
+        <input type="number" id="age" name="age" min="18" max="30" required>
+    </div>
+    <br>
+    <div>GENDER</div>
+    <br>
+    <div class="gender">
+        <label for="male">MALE</label>
+        <input type="radio"name="gender" id="male">
+    </div>
+    <br>
+    <div class="DIV">
+        <label for="female">FEMALE</label>
+        <input type="radio" name="gender" id="female">
+    </div>
+    <br>
+    <div class="DIV">
+        <label for="email">EMAIL : </label>
+        <input type="email" id="email" name="email">
+    </div>
+    <br>
+    <div>
+        <label for="remarks">REMARKS</label>
+        <textarea id="remarks" name="remarks"> Type in your comments </textarea>
+    </div>
+    <br>
+    <div>
+        <button type="reset">Reset</button>
+        <button>Submit</button>
+    </div>
+    <br>
+    
+</form>
+
+</div>
+</body>
+
+</html>
